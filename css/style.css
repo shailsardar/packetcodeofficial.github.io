@@ -1,0 +1,149 @@
+*{
+	margin: 0 auto 0 auto;
+	text-align:left;
+}
+body{
+	margin:0;
+	padding:0;
+	text-align:left;
+	font-size:13px;
+	font-family:arial,halvetica,sans-serif;
+	color:black;
+	background-color:#1c478e;
+	background-image:url(../image/favpic.jpg);
+	background-position:center;
+	background-repeat:repeat-y;
+}
+h2{
+	padding-bottom:10px;
+}
+
+h3{
+	font-size:16px;
+	font-weight:bold;
+	padding:10px 0;
+	color:blue;
+}
+
+h4{
+	font-size:15px;
+	font-weight:bold;
+	padding:7px;
+	color:blue;
+}
+label{
+	padding=20px 0 10px 0;
+}
+#content1 p{
+	font-size:13px;
+	font-weight:bold:
+}
+#container{
+	width:960px;
+}
+#header{
+	width:920px;
+	height:80px;
+}
+#header h1{
+	color:white;
+	float:left;
+	font-size:53;
+	padding:20px 0 0 20px;
+}
+#header h2{
+	float:right;
+	color:white;
+	padding:40px 20px 0 0;
+}
+#header h1 span.blue-text{
+	color:#67A0F5;
+}
+#header h2 span.black-text{
+	color:black;
+}
+#menu{
+	float:left;
+	color:black;
+	clear:both;
+	width:960px;
+	height:54px;
+}
+#menu ul{
+	list-style:none;
+	padding:0;
+	padding-top:15px;
+	margin-left:auto;
+	width:960px;
+}
+#manu li{
+	list-style:none;
+	padding:o;
+	display:inline;
+}
+#menu li a,#menu li a:visited{
+	float:left;
+	text-decoration:none;
+	text-align:center;
+	font-size:15px;
+	font-weight:bold;
+	padding:0 13px 0 13px;
+}
+#leftmenu{
+	margin-top:15px;
+	width:190px;
+	float:left;
+	color:#1C478E;
+	border-radius:10px;
+	padding:15px 20px 10px 10px;
+}
+#leftmenu ul{
+	list-style:none;
+	padding:0;
+}
+#leftmenu li{
+	list-style:none;
+	padding:15px 0 8px 0;
+	border-bottom:1px dashed #fff;
+}
+#leftmenu a,#leftmenu a:visited{
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:14px;
+}
+#leftmenu h3{
+	color:white;
+	padding:0;
+	padding-bottom:8px;
+	border-bottom:#fff solid 2px;
+	font-size:16px;
+}
+#content1,#content2{
+	display:black;
+	width:680px;
+	margin-top:15px;
+	float:left;
+	background:white;
+	border-radius:10px;
+	border:6px solid red;
+	padding:15px;
+	margin-left:15px;
+}
+.float{
+	float:right;
+	margin:15px;
+}
+.developer{
+	width:170px;
+	float:left;
+}
+.developer ul{
+	margin-bottom:10px;
+	list-style:none;
+	padding:0;
+}
+.developer li{
+	list-style:none;
+	line-height:1cm;
+}
